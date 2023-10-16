@@ -45,17 +45,17 @@ python  main.py
 
 ### Notes
 
-- This script is designed to automate LinkedIn job applications, but it may not work for all job listings, especially if the website structure changes. Please use it responsibly.
+- This script is designed to automate LinkedIn job applications, but it currently saves jobs without applying. You can modify it to apply for jobs by clicking the "Apply" button if needed.
+- The decision to save jobs instead of applying is based on the preference of the author to avoid unintended job applications from their LinkedIn account.
+- This script may not work for all job listings, especially if the website structure changes. Please use it responsibly.
 
 ## Acknowledgments
 
 - Selenium: [https://pypi.org/project/selenium/](https://pypi.org/project/selenium/)
 - LinkedIn: [https://www.linkedin.com](https://www.linkedin.com)
+- This project is a part of the "100 Days of Code" challenge by Angela Yu.
 
-## Acknowledgement
-
-This project is a part of the "100 Days of Code" challenge by Angela Yu.
 
 ## Author
-- [Mansi Yadav](https://github.com/FreeSpirit11/amazon-price-tracker)
+- [Mansi Yadav](https://github.com/FreeSpirit11/automatic-job-application-linkedn)
 
