@@ -8,7 +8,6 @@ USERNAME = YOUR_USERNAME
 PASSWORD = YOUR_PASSWORD
 DESIRED_JOB = YOUR_DESIRED_JOB
 
-
 #To keep the browser open
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
@@ -30,12 +29,6 @@ password.send_keys(PASSWORD)
 sing_in_button = driver.find_element(By.CLASS_NAME, "login__form_action_container")
 sing_in_button.click()
 
-#CAPTCHA - Solve it manually
-# captcha_done = input("Captcha done ?\nType Y or N: ").lower()
-# time.sleep(5)
-
-#Search and apply for the jobs
-# if captcha_done == "y":
 time.sleep(20)
 try:
 
